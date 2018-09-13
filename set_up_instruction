@@ -1,0 +1,17 @@
+This script is writen by python3.6.
+
+All libs I used in this script can be find in basic python3.6.
+You don't need to install other libs.
+
+Before you run it, please open it first and change the line 9 & 10.
+    prefix = 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com'
+    suffix = '/api/products/1'
+
+URL in the script should be divided into two parts.
+Suffix part can be find in every ["next"] of the page.
+And the prefix is the constant part of each pages' url.
+
+After changing this, just open a terminal and
+    python3 avg.py
+    or
+    python avg.py
